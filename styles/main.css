@@ -20,15 +20,15 @@ section {
   position: relative;
   background-color: red;
 }
-section {
-  ul {
-   list-style-type: square;
+
+section ul {
+  list-style-type: square;
    font-weight: bold;
    color: black;
    margin: 0;
    padding: 0;
-  }
 }
+
 li {
   padding: .5em 1em;
 }
@@ -274,15 +274,15 @@ section {
   position: relative;
   background-color: red;
 }
-section {
-  ul {
+
+section ul {
    list-style-type: square;
    font-weight: bold;
    color: black;
    margin: 0;
    padding: 0;
-   }
 }
+
 li {
   padding: .5em 1em;
 }
