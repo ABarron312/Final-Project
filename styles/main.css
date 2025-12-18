@@ -259,7 +259,7 @@ section {
   background-color: red;
 }
 ul {
-  list-style-type: none;
+  list-style-type: square;
   font-weight: bold;
   color: black;
   margin: 0;
