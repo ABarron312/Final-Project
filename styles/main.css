@@ -191,7 +191,7 @@ aside a:focus {
 }
 
 figure {
-  float: left;
+  float: right;
   width: 50%;
   margin-right: 1.5em;
   & img {
