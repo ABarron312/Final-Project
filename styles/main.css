@@ -256,7 +256,7 @@ section {
 
 .navbar { 
   position: relative;
-  background-color: steelblue;
+  background-color: red;
 }
 ul {
   list-style-type: none;
