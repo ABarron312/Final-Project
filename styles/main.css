@@ -98,7 +98,7 @@ body {
 
 
 header {
-  background: linear-gradient(white, red);
+  background: linear-gradient(red, white);
   padding: 20px;
   border-bottom: 3px solid red;
   overflow: hidden;
