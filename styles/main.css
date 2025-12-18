@@ -276,7 +276,7 @@ section {
   background-color: red;
 }
 
-section ul {
+ ul {
    list-style-type: none;
    font-weight: bold;
    color: black;
