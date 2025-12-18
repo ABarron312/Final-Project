@@ -338,7 +338,7 @@ body {
 header {
   background: linear-gradient(white, lightsteelblue);
   padding: 20px;
-  border-bottom: 3px solid steelblue;
+  border-bottom: 3px solid red;
   overflow: hidden;
 }
 
