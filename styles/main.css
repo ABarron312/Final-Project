@@ -200,6 +200,7 @@ figure {
   & figcaption {
     display: block;
     font-weight: bold;
+    text-align: center;
     margin-bottom: .5em;
   }
 }
