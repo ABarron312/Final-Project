@@ -267,7 +267,7 @@ main {
 
 section {
   & h2 {
-    color: maroon;
+    color: red;
   }
 }
 
