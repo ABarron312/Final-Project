@@ -443,12 +443,12 @@ aside li {
 
 aside a:link,
 aside a:visited {
-  color: steelblue;
+  color: red;
 }
 
 aside a:hover,
 aside a:focus {
-  color: maroon;
+  color: steelblue;
 }
 
 
