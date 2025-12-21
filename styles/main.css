@@ -416,7 +416,7 @@ blockquote {
 
 aside {
   flex-basis: 35%;
-  border: 3px solid steelblue;
+  border: 3px solid red;
   border-radius: 1em;
   padding: 15px;
   height: fit-content;
