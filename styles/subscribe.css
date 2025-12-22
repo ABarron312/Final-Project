@@ -30,3 +30,11 @@ input:required {
 input:valid {
     border: 2px solid green;
 }
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+fieldset {
+    padding: .5em 1em;
+    margin-bottom: 0.5em;
+}
