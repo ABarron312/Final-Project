@@ -1,0 +1,17 @@
+.button-styled {
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    font-size: inherit;
+    padding: 0.5em;
+    border-radius: 10px
+    &:hover {
+        color: black;
+        background-color: white;
+    }
+}
+
+.button-primary {
+    background-color: green;
+}
