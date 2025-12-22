@@ -38,3 +38,7 @@ fieldset {
     padding: .5em 1em;
     margin-bottom: 0.5em;
 }
+form {
+    width: 400px;
+    height: 400px;
+}
