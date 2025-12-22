@@ -1,40 +1,30 @@
-input, select, button {
-    font-size: inherit;
-    padding: .2em;
-    margin-bottom: .5em;
-    border-radius: 5px;
-}
-label {
-    display: block;
-    margin-bottom: 0.25em;
-}
-label, select {
-    width: 100%;
-}
-button {
-    cursor: pointer;
-    width: 8em;
-    padding: .5em;
-    margin-top: 1em;
-    font-weight: bold;
-    color: white;
-    background-color: green;
-    &:hover {
-        color: black;
-        background-color: red;
+form {
+    & label {
+        display: block;
     }
-}
-input:required {
-    border: 2px solid red;
-}
-input:valid {
-    border: 2px solid green;
-}
-legend {
-    font-size: 1.2em;
-    font-weight: bold;
-}
-fieldset {
-    padding: .5em 1em;
-    margin-bottom: 0.5em;
+    & input, select {
+        width: 100%;
+    }
+    & input, select, button {
+        font-size: inherit;
+        padding: .5em;
+        margin-bottom: .5em;
+        border-radius: 5px;
+    }
+    & button {
+        cursor: pointer;
+        margin-top: 1em;
+        font-weight: bold;
+        background-color: green;
+        &:hover {
+            background-color: red;
+            color: black;
+        }
+    }
+    & input:required, input:invalid {
+        border: 2px solid red;
+    }
+    & input:valid {
+        border: 2px solid green;
+    }
 }
